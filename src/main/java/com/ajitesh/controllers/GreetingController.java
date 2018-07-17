@@ -11,7 +11,7 @@ public class GreetingController {
 	@GetMapping("/greeting")
 	public String getGreeting() {
 		
-		return "{\"message\" : \"Hello from Erueka client.\"}";
+		return "{\"message\" : \"Hello from Erueka client -> 1.\"}";
 	}
 
 }
